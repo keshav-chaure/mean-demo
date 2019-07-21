@@ -1,10 +1,12 @@
-    const express = require('express'),
-    path = require('path'),
-    bodyParser = require('body-parser'),
-    cors = require('cors'),
-    mongoose = require('mongoose'),
-    config = require('./DB'),
-    port = 4200,
+    //import express from 'express'
+    import express  from 'express';
+    import path from 'path';
+    import bodyParser from 'body-parser';
+    import cors from 'cors';
+    import  mongoose from 'mongoose';
+    import  config from './db';
+
+    const port = 4200,
     app = express(),
     businessRoutes = require('./routes/business.route');
 
